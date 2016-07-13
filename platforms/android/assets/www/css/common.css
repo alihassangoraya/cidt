@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/*Меню*/
+.menu-item {
+    display: inline-block;
+    text-align: center;
+    padding: 0 1%;
+}
+
+.menu-wrapper {
+    clear: both;
+    position: fixed;
+    width: inherit;
+
+    background: whitesmoke;
+    z-index: 11;
+    padding: 5px 0px 0px 0px;
+}
+
+.menu-item.title {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -7px;
+
+    width: 70%;
+}
+
+.menu-item.left {
+    text-align: left;
+    width: 10%;
+}
+
+.menu-item.right {
+    text-align: right;
+    width: 10%;
+}
+
+a.menu-item {
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.cal {
+    margin-top: -45px;
+}
+
+/*Кнопки*/
+.btn, .btn2, .btn3, .disabled-btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 200px;
+    cursor: pointer;
+
+    color: #ffffff;
+}
+
+.btn, .disabled-btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+.btn a, .btn2 a, .btn3 a, .disabled-btn a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.disabled-btn, .disabled-btn a {
+    cursor: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+.btn2 {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #de6262, #d93434);
+    background-image: -moz-linear-gradient(top, #de6262, #d93434);
+    background-image: -ms-linear-gradient(top, #de6262, #d93434);
+    background-image: -o-linear-gradient(top, #de6262, #d93434);
+    background-image: linear-gradient(to bottom, #de6262, #d93434);
+}
+
+.btn2:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #e64040, #c70000);
+    background-image: -moz-linear-gradient(top, #e64040, #c70000);
+    background-image: -ms-linear-gradient(top, #e64040, #c70000);
+    background-image: -o-linear-gradient(top, #e64040, #c70000);
+    background-image: linear-gradient(to bottom, #e64040, #c70000);
+}
+
+.btn3 {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #009900, #006633);
+    background-image: -moz-linear-gradient(top, #009900, #006633);
+    background-image: -ms-linear-gradient(top, #009900, #006633);
+    background-image: -o-linear-gradient(top, #009900, #006633);
+    background-image: linear-gradient(to bottom, #009900, #006633);
+}
+
+.btn3:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #00a700, #00793c);
+    background-image: -moz-linear-gradient(top, #00a700, #00793c);
+    background-image: -ms-linear-gradient(top, #00a700, #00793c);
+    background-image: -o-linear-gradient(top, #00a700, #00793c);
+    background-image: linear-gradient(to bottom, #00a700, #00793c);
+}
+
+.disabled-btn
+{
+    background: gainsboro;
+}
+/*Сообщение*/
+.msg {
+    background: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #ffffff);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #ffffff);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #ffffff);
+    background-image: -o-linear-gradient(top, #f0f0f0, #ffffff);
+    background-image: linear-gradient(to bottom, #f0f0f0, #ffffff);
+    -webkit-box-shadow: 0px 1px 3px #777777;
+    -moz-box-shadow: 0px 1px 3px #777777;
+    box-shadow: 0px 1px 3px #777777;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 250px;
+}
+
+/*Стакан*/
+.back-layer {
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    margin: 0 auto;
+}
+
+.first-layer-wrapper {
+
+}
+
+.first-layer {
+    position: absolute;
+    z-index: 10;
+    margin: 0 auto;
+    width: 100%;
+    top: 205px;
+
+    padding-bottom: 50px;
+    display: none;
+}
+
+.advance-settings{
+    top: 250px;
+}
+.first-layer input{
+    width: 250px;
+    font-size: 16px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#quota_yes, #quota_no{
+    display: none;
+}
+

@@ -1,0 +1,18 @@
+
+.stats{
+    top: 130px;
+}
+
+#dncalendar-container{
+    max-width: 280px;
+}
+
+.overDrunk{
+    background: #c42c00 !important;
+    color: #ffffff !important;
+}
+
+.normalDrunk{
+    background: #3498db !important;
+    color: #ffffff !important;
+}

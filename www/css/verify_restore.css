@@ -1,0 +1,13 @@
+
+.verify_restore{
+    top : 160px;
+}
+
+#verification_code{
+    width: 60px;
+    font-size: 25px;
+    height: 30px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}

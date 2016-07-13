@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *"/>
+    <title>Settings - CIDT</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/settings.css"/>
+    <script src="../js/common/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+
+<center>
+    <div class="wrapper">
+        <div class="menu-wrapper">
+            <div class="menu-item left">
+                <a href="#" id="back_arrow"><img src="../img/larrow.png"></a>
+            </div>
+
+            <div class="menu-item title">
+                <!--Settings-->
+            </div>
+
+            <div class="menu-item right">
+                <a href="#"><img src="../img/settings.png"></a>
+            </div>
+        </div>
+
+        <div class="back-layer">
+            <img src="../img/123.jpg" width="300">
+        </div>
+
+        <div class="first-layer-wrapper">
+            <div class="first-layer settings">
+                <h3 id="lang_heading">Select language:</h3>
+                <select id="language">
+                    <option value="english">English</option>
+                    <option value="russian">Русский</option>
+                </select>
+
+                <h3 id="drink_heading">Allow drink after:</h3>
+                <select id="drinks_time">
+                    <option value="1-d">1 day</option>
+                    <option value="2-d">2 days</option>
+                    <option value="3-d">3 days</option>
+                    <option value="4-d">4 days</option>
+                    <option value="5-d">5 days</option>
+                    <option value="6-d">6 days</option>
+                    <option value="7-d">7 days</option>
+                    <option value="2-w">2 weeks</option>
+                    <option value="1-m">1 month</option>
+                    <option value="6-m">6 months</option>
+                    <option value="1-y">1 year</option>
+                </select>
+                <br><br>
+
+                <div class="disabled-btn" id="update_settings">Update</div>
+
+                <br>
+                <a href="#" id="advance_Settings">Advance Settings</a>
+            </div>
+        </div>
+    </div>
+</center>
+
+<script type="text/javascript" src="../cordova.js"></script>
+<script type="text/javascript" src="../js/common/languages.js"></script>
+<script type="text/javascript" src="../js/common/common.js"></script>
+<script type="text/javascript" src="../js/settings.js"></script>
+</body>
+
+</html>

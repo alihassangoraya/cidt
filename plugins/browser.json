@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "club.cidt.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "club.cidt.app"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "club.cidt.app"
+        },
+        "com.telerik.plugins.nativepagetransitions": {
+            "PACKAGE_NAME": "club.cidt.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "club.cidt.app"
+        }
+    },
+    "dependent_plugins": {}
+}
